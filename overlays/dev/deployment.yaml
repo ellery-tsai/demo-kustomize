@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: podinfo
+  annotations:
+    env: dev
+  labels:
+    env: dev
+spec:
+  replicas: 2
