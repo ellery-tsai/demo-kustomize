@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   labels:
     app: podinfo
-    env: test
   name: podinfo
 spec:
   replicas: 3
